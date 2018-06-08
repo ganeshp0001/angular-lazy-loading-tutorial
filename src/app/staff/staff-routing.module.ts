@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { StaffDashboardComponent } from './staff-dashboard/staff-dashboard.component';
+import { MaterialDashboardComponent } from './material-dashboard/material-dashboard.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: StaffDashboardComponent
+    component: MaterialDashboardComponent
   }
 ];
 
